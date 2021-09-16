@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#dropdown-menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: max-content;
+}
+
+#dropdown-menu .tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0;
+    min-width: calc(33% - 1em);
+    height: 2em;
+}
+
+#dropdown-menu .finish {
+    max-width: 100px !important;
+}
